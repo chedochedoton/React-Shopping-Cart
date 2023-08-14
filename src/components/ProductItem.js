@@ -7,7 +7,7 @@ function ProductItem({ title, image, description, category, color, price }) {
 
                 {/* L'image et le te titre du produit */}
                 <div className="col-span-2 lg:col-span-1 overflow-hidden rounded-lg relative">
-                    <img className="transform transition duration-700 w-60 h-40 rounded-lg object-cover shadow-2xl hover:scale-125" src={image} alt="product-image" />
+                    <img className="transform transition duration-700 w-60 h-40 rounded-lg object-cover shadow-2xl hover:scale-125" src={image} alt="product" />
                     <span className="mt-3 bg-blue-500 text-white text-sm p-1 rounded-xl absolute -top-1 right-1"> {category} </span>
                 </div>
 

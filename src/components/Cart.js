@@ -1,9 +1,9 @@
-import react, { useState } from "react";
-import ProductItem from "./productItem"
-import ProductData from '../API/product.json'
+import React, { useState } from "react";
+import ProductItem from "./ProductItem"
+import ProductData from '../API/articles.json'
 
 
-function cart() {
+function Cart() {
 
     const [items, setItems] = useState(ProductData)
 
@@ -41,7 +41,7 @@ function cart() {
                         return(
                             <ProductItem
                             key={eachItem.id}
-                            image={eachItem.iamge}
+                            image={eachItem.image}
                             title={eachItem.title}
                             description={eachItem.description}
                             color={eachItem.color}
