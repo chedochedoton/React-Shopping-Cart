@@ -5,7 +5,7 @@ import ProductData from '../API/product.json'
 
 function cart() {
 
-    const [items,SetItems] = useState(ProductData)
+    const [items, setItems] = useState(ProductData)
 
     const filteringProduct = (category) => {
         const productfilter = ProductData.filter( (eachItem) => {
