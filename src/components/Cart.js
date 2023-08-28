@@ -19,19 +19,17 @@ function Cart() {
     return (
         <>
           <div className="mt-9"> 
-          <h2 className="text-2xl font-normal">Shopping Cart</h2>
+          <h2 className="text-4xl font-normal">Shopping Cart</h2>
 
-           <div className="flex flex-row flex-wrap space-x-2 mt-4 menutab pb-4">
+           <div className="flex flex-row flex-wrap space-x-4 mt-4 menutab pb-4">
             <button onClick={ () => {setItems(ProductData)}}>All</button>
             <button onClick={ () => {filteringProduct('Téléphone')}}>Téléphone</button>
             <button onClick={ () => {filteringProduct('Mèche naturelle')}}>Mèche naturelle</button>
-            <button onClick={ () => {filteringProduct('Fauteil')}}>Fauteil</button>
+            <button onClick={ () => {filteringProduct('Fauteil')}}>Fauteuil</button>
             <button onClick={ () => {filteringProduct('Ordinateur')}}>Ordinateur</button>
             <button onClick={ () => {filteringProduct('Sans fil')}}>Sans fil</button>
             <button onClick={ () => {filteringProduct('Guitar')}}>Guitar</button>
             <button onClick={ () => {filteringProduct('Bracelet')}}>Bracelet</button>
-            <button onClick={ () => {filteringProduct('Mouse')}}>Mousse</button>
-            <button onClick={ () => {filteringProduct('Keyboard')}}>Keyboard</button>
             </div>
 
 

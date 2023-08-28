@@ -6,7 +6,7 @@
         "title": "Téléphone fix",
         "description": "Nous vous proposons une garme importante de téléphones fixes qui repondront à vos exigences",
         "color": "black",
-        "category": "TélePhone",
+        "category": "Téléphone",
         "price": "100$"
     },
 
@@ -16,7 +16,7 @@
         "title": "Samsung",
         "description": "Cedle nouveau Film souple Hydrogel UV Film Mobile prix usine écran couverture complète protecteur d'écran UV durcissement Films Hydrogel",
         "color": "Gray",
-        "category": "TélePhone",
+        "category": "Téléphone",
         "price": "200$" 
     },
 
@@ -26,7 +26,7 @@
         "title": "iphone",
         "description": " nouvelle arrivage rainure vierge personnalisée lanière suspendue étui de téléphone pour iPhone 14 13 13 Pro 13promax",
         "color": "red",
-        "category": "TélePhone",
+        "category": "Téléphone",
         "price": "50$" 
     },
 
@@ -173,7 +173,7 @@
 
     {
         "id": 18,
-        "image": "https://plus.unsplash.com/premium_photo-1664194584456-c25febbccb2a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+        "image": "https://images.unsplash.com/photo-1630403617770-14fa581440a8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
         "title": "Guitar basse à 5 cordes",
         "description": "En stock guitare basse électrique à 5 cordesde haute qualité avec prix  de gros pour les étudiants débutants en guitare",
         "color": "Noir",

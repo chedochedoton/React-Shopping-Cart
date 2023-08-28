@@ -8,14 +8,16 @@ function ProductItem({ title, image, description, category, color, price }) {
                 {/* L'image et le te titre du produit */}
                 <div className="col-span-2 lg:col-span-1 overflow-hidden rounded-lg relative">
                     <img className="transform transition duration-700 w-60 h-40 rounded-lg object-cover shadow-2xl hover:scale-125" src={image} alt="product" />
-                    <span className="mt-3 bg-blue-500 text-white text-sm p-1 rounded-xl absolute -top-1 right-1"> {category} </span>
+                    <span className="mt-3 bg-red-500 text-white text-sm p-1 rounded-xl absolute -top-1 right-1"> {category} </span>
+                    {/* J'ai changé la couleur bleu de la ctégorie en rouge */}
                 </div>
 
                  {/* Titre du produit et la description*/}
-                 <div className="col-span-2 border-box p-4">
-                    <h2 className="text-center lg:text-left font-semibold text-2xl pb-2">{title}</h2>
+                 <div className="col-span-2 border-box p-2">
+                    <h2 className="text-center lg:text-left font-bold text-3xl pb-2">{title}</h2>
                     <p className="text-justify lg:text-left text-grey-500 font-sm leading-2">{description}</p>
                     <h4 className="text-center lg:text-left font-bold py-3">{color}</h4>
+                    {/* J'ai chnagé le font semibold en bold et le caractère du text (2xl en 3xl)*/}
                 </div>
 
                 {/* Quantité du produit*/}
@@ -24,8 +26,9 @@ function ProductItem({ title, image, description, category, color, price }) {
                     <svg xmlns="http://www.w3.org/2000/svg" className="transition duration-400 ease-in-out h-8 w-8 hover:bg-blue-500 hover:text-white rounded-full p-1 cursor-pointer" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M18 12H6" />
                     </svg>
-                    <input type="number" placeholder="1" className="w-24 text-center rounded-full py-3 outline-none"/>
-                    <svg xmlns="http://www.w3.org/2000/svg" className="transition duration-400 ease-in-out h-8 w-8 hover:bg-blue-500 hover:text-white rounded-full cirser-pointer" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <input type="number" placeholder="1" className="w-24 text-center rounded-full py-2 outline-none"/>
+                    {/* py-3 changé à py-2*/}
+                    <svg xmlns="http://www.w3.org/2000/svg" className="transition duration-400 ease-in-out h-8 w-8 hover:bg-blue-500 hover:text-white rounded-full p-1 cursor-pointer" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6v6m0 0v6m0 0v6m0-6h6m-6 0H6"/>
                     </svg>
                 </div>
